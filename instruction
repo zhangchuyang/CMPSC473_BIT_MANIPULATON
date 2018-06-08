@@ -1,0 +1,23 @@
+The assignment is expected to be completed in a linux environment. There are 3 options for setting up a linux environment.
+
+Option 1 (recommended): The recommended configuration can be setup via vagrant. Instructions for installing vagrant can be found here (链接到外部网站。)链接到外部网站。. The zip file already contains a Vagrantfile, so once you've installed and prepared the environment, you can just run
+
+vagrant up
+
+within the project directory to setup and launch the VM. Once the VM is launched, you run
+
+vagrant ssh
+
+to get a linux command prompt where you can complete your work. Once you are done, you can run
+
+exit
+
+to exit the VM command prompt. Then run
+
+vagrant halt
+
+to gracefully shutdown the VM.
+
+Option 2: You can use the linux cluster in W204 Westgate Building to complete the assignment. We've tested the lab configuration to work with the assignment.
+
+Option 3 (not recommended): If you'd like to use your own VM and linux configuration, you're on your own in terms of configuring the environment to get it to work and making sure you have the right packages, versions, etc. The assignments may work as-is, but we don't provide any guarantee.
